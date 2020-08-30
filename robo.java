@@ -47,6 +47,12 @@ public class robo {
     robot.keyRelease(KeyEvent.VK_V);
     robot.keyRelease(KeyEvent.VK_CONTROL);
     Thread.sleep(1000);
+    robot.keyPress(KeyEvent.VK_TAB);
+    robot.keyRelease(KeyEvent.VK_TAB);
+    Thread.sleep(2000);
+    robot.keyPress(KeyEvent.VK_SPACE);
+    robot.keyRelease(KeyEvent.VK_SPACE);
+    Thread.sleep(2000);
     robot.keyPress(KeyEvent.VK_ENTER);
     System.exit(0);
   }
